@@ -3,3 +3,6 @@
 list_2 = [1, 19, 4, 8]
 list_2.sort()
 print(list_2[0])
+
+# list.sort()
+# Sorts the list in place (does not return it)

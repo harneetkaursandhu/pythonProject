@@ -52,3 +52,10 @@ if not state:
 # get a city with a default value
 city = cities.get('TX', 'Does Not Exist')
 print("The city for the state 'TX' is: {0}".format(city))
+# A dictionary is a collection, but it uses different syntax and semantics from other collection types.
+# A single dictionary item consists of 2 parts separated by a colon. The first part is the dictionary
+# key. The key is unique, so items from the same dictionary must have different keys.
+# The second part is the item value. This can be of any type, but the key must be of an immutable data
+# type such as string, number, or tuple. Dictionary items are separated by commas, and the whole dictionary
+# is enclosed in curly braces. An empty dictionary without any items is written with just two curly braces,
+# like this: dictionary_1 = { }.

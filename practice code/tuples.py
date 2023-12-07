@@ -48,3 +48,11 @@ for i in bank_accounts:
         print("\n")
     for customer_detail in i:
         print(customer_detail, end=" ")
+
+# Tuples are sequences, just like lists. The main difference between tuples and lists are that tuples
+# cannot be changed. In previous programs, lists were edited, sorted and added to.
+# List items were deleted. This is not possible with tuples. Unlike lists, tuples use parentheses,
+# whereas lists use square brackets.
+# In the example shown, bank account details are stored in the tuples. Some account holders have
+# more information than others. The additional information can be accessed without raising an error
+# , by checking the length of each tuple before printing the information.

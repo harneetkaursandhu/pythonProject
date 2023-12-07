@@ -43,3 +43,11 @@ else:
     print("\nThat is incorrect. Your current score is still", score, "\n\n")
 print("\nYour final score is ", score, "\n\n")
 print("The time taken for you to complete this quiz is....", datetime.today() - start_time)
+
+# The If statement uses boolean conditional operations to create a branch in the program.
+# If a condition is met, then some action is taken, otherwise, the interpreter skips the action
+# and moves on to the next code block.
+
+# Here the value of score is zero in the beginning.
+# Every time if the answer is right, the value the score is increased by 1 else it remains same
+# to the previous score.

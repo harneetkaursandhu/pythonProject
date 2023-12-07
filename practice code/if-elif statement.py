@@ -25,3 +25,11 @@ elif wave_length >= 380:
 else:
     print("Indeterminate, :-(, the number entered is "
           "outside the visible spectrum!")
+
+#  The program works by checking the boolean conditions.
+#
+# When a condition is met, the appropriate actions are performed, and the rest of the if statement is skipped.
+#
+# This is important. It means that the order of the variables being evaluated must run from highest to lowest.
+
+# An other point to note is that the final else clause should always contain an error message.

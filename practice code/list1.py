@@ -10,3 +10,14 @@ if user_input.lower() == "sum":
 if user_input.lower() == "average":
     average = float(list_sum) / (len(list_1) + len(list_2))
     print("\nThe average of the items in the list is.... ", average)
+
+# Here we have 2 Lists. The user will enter his choice whether he wants to sum these two lists or average
+# of the combined lists.
+# To create a list in Python, put a number of expressions in square brackets:
+# L = []
+# len(L) returns the number of items in the list
+#
+# L[i] returns the item at index i (the first item has index 0)
+#
+# L[i:j] returns a new list, containing the objects between i and j.
+#

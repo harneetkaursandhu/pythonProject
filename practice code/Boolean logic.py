@@ -23,3 +23,12 @@ print("The student's eligibility to enrol is ",
       and has_residency
       or 18 > age_in_years > 10
       and is_fee_foreign, "\n")
+
+# When 2 or more bool variables are joined together, they always return a boolean (True or False).
+# There is no other value returned such as "null" or "maybe". When the Python "and" operator is used,
+# the variables on either side of the operator are checked. If either of the values are False,
+# then operator returns False. If both the variables are True, then the operator returns True.
+
+# The Python "or" operator is used to check if either of the variables is True. If a value is True,
+# then the operator returns True. If both of the variables are False, then the operator returns False.
+
